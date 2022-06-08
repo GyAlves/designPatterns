@@ -3,6 +3,8 @@ import { EnterpriseCustomer } from "../customer/enterprise-customer";
 import { AbstractVehicle } from "../vehicle/abstract_vehicle";
 import { EnterpriseCar } from "../vehicle/enterprise-car";
 
+// Individual Concrete Factory class based on the Abstract Factory
+
 export class EnterpriseCreateVehicleCustomerFactory {
     createCustomer(customerName: string): AbstractCustomer {
         return new EnterpriseCustomer(customerName);

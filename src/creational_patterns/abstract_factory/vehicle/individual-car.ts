@@ -1,6 +1,7 @@
 import { AbstractCustomer } from "../customer/abstract_customer";
 import { AbstractVehicle } from "../vehicle/abstract_vehicle";
 
+// Variant of the Vehicle Product - Individual Car
 export class IndividualCar implements AbstractVehicle {
 
     constructor(public name: string, private readonly customer: AbstractCustomer) { }
